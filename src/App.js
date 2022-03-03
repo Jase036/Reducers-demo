@@ -94,7 +94,7 @@ const App = () => {
         ))}
       </ul>
       <input type="text" value={state.inputValue} onChange={handleAddChange} />
-      <button onClick={handleAdd}>Add another item</button>
+      <button onClick={handleAdd}>Add task</button>
     </>
   );
 };
